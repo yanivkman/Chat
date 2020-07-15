@@ -1,2 +1,3 @@
 # Chat
-Chat practice
+This repository is for training.
+Starting with one client and one client.
