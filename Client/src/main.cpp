@@ -1,7 +1,14 @@
+#include <iostream>
+#include "argh.h"
+
 #include "client.h"
 
-int main()
+int main(int, char* argv[])
 {
-    
-    return 0;
+    argh::parser cmdl(argv);
+
+    if (cmdl[{ "-v", "--verbose" }])
+        std::cout << "Verbose, I am.\n";
+
+    return EXIT_SUCCESS;
 }
