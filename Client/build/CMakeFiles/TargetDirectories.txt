@@ -1,3 +1,0 @@
-/home/yaniv/Chat/Client/build/CMakeFiles/rebuild_cache.dir
-/home/yaniv/Chat/Client/build/CMakeFiles/edit_cache.dir
-/home/yaniv/Chat/Client/build/CMakeFiles/client.dir
