@@ -4,4 +4,4 @@ project(Chat_Server)
 
 include_directories(include ../Shared)
 
-add_executable(Server src/server.cpp)
+add_executable(server src/server.cpp src/main.cpp)

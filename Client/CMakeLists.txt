@@ -4,4 +4,4 @@ project(Chat_Client)
 
 include_directories(include ../Shared)
 
-add_executable(Client src/client.cpp)
+add_executable(client src/client.cpp src/main.cpp)
